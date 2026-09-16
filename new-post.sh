@@ -45,7 +45,7 @@ cat > "$file" <<EOF
 title: "$title"
 date: $(date '+%Y-%m-%dT%H:%M:%S%z')
 author: "$author"
-draft: true
+draft: false
 ---
 
 EOF
