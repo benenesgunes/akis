@@ -22,3 +22,15 @@ params:
       Bitirme projemizin geliştirme sürecini,
       karşılaştığımız problemleri ve aldığımız
       teknik kararları burada belgeliyoruz.
+
+menu:
+  main:
+    - identifier: about
+      name: Hakkımızda
+      url: /about/
+      weight: 10
+
+    - identifier: team
+      name: Takım
+      url: /team/
+      weight: 20
