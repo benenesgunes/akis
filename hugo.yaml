@@ -1,4 +1,4 @@
-baseURL: "http://localhost:1313/"
+baseURL: "https://akis-jet.vercel.app/"
 languageCode: "tr-tr"
 title: "akış"
 theme: ["PaperMod"]
