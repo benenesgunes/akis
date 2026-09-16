@@ -1,3 +1,24 @@
-baseURL: https://example.org/
-locale: en-us
-title: My New Hugo Project
+baseURL: "http://localhost:1313/"
+languageCode: "tr-tr"
+title: "akış"
+theme: ["PaperMod"]
+
+params:
+  env: production
+  description: "Bitirme projemizin geliştirme süreci"
+  author: "Proje Ekibi"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+  homeInfoParams:
+    Title: "Bitirme Projesi"
+    Content: >
+      Bitirme projemizin geliştirme sürecini,
+      karşılaştığımız problemleri ve aldığımız
+      teknik kararları burada belgeliyoruz.
